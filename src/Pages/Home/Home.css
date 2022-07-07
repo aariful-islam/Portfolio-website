@@ -1,0 +1,11 @@
+.banner{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+}
+
+@media screen and (max-width: 600px){
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

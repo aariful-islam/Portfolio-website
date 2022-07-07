@@ -1,0 +1,13 @@
+.about{
+    display: grid;
+    grid-template-columns: 7fr 5fr
+}
+.text{
+    font-size: large;
+}
+@media screen and (max-width: 600px){
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
